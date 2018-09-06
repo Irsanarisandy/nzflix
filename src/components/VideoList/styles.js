@@ -2,7 +2,7 @@ export default {
     videoContainer: {
         display: 'flex',
         margin: '20px auto 10px',
-        width: 270
+        width: 300
     },
     videoImg: {
         height: 50,
