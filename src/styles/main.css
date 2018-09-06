@@ -5,12 +5,11 @@
 
     #video-container {
         padding: 0 10px;
-        width: calc(100vw * 0.55) !important;
     }
 
     #current-video {
         height: calc(100vw * 0.55 / 1.5) !important;
-        width: 100% !important;
+        width: calc(100vw * 0.55) !important;
     }
 
     #obsession:hover {
@@ -19,9 +18,5 @@
 
     #socialContainer:hover {
         background-color: grey;
-    }
-
-    #social {
-        max-width: 200px !important;
     }
 }

@@ -1,3 +1,5 @@
+const bodyHeight = document.body.scrollHeight;
+
 export default {
     container: {
         backgroundColor: 'black',
@@ -14,17 +16,14 @@ export default {
     },
     video: {
         height: 'calc(100vw / 1.5)',
-        width: '100vw',
-        maxHeight: 467,
-        maxWidth: 750
+        width: '100vw'
     },
     videoSuggestionContainer: {
         backgroundColor: 'white',
         display: 'flex',
         margin: '10px 0',
         overflowX: 'scroll',
-        width: '100%',
-        maxWidth: 700
+        width: 'calc(100vw * 0.55)'
     },
     videoSuggestion: {
         height: 150,
@@ -39,7 +38,7 @@ export default {
     right: {
         position: 'relative',
         bottom: 120,
-        left: window.innerWidth < 1274 ? 'calc(100vw * 0.55 - 123px)' : 578
+        left: 'calc(100vw * 0.55 - 120px)'
     },
     descContainer: {
         display: 'flex',
@@ -78,7 +77,11 @@ export default {
         position: 'absolute',
         top: 380,
         right: 0,
-        width: 200,
+        textAlign: 'center',
+        width:
+            window.innerHeight <= bodyHeight
+                ? 'calc(45% - 40px)'
+                : 'calc(45% - 50px)',
         zIndex: 1
     }
 };
