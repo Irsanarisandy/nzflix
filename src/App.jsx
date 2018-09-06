@@ -93,6 +93,13 @@ class App extends React.Component {
                                 qui officia deserunt mollit anim id est laborum.
                             </p>
                         </div>
+                        <div
+                            id="socialContainer"
+                            style={styles.socialContainer}
+                        >
+                            <h2>Social Activity</h2>
+                            <Social text="Is currently watching Gandalf" />
+                        </div>
                         <div id="obsession" style={styles.obsession}>
                             <img
                                 src={stream}

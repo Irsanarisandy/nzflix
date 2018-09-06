@@ -71,5 +71,14 @@ export default {
     },
     rating: {
         color: '#5280F7'
+    },
+    socialContainer: {
+        cursor: 'pointer',
+        padding: 10,
+        position: 'absolute',
+        top: 380,
+        right: 0,
+        width: 200,
+        zIndex: 1
     }
 };

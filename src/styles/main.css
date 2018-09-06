@@ -16,4 +16,12 @@
     #obsession:hover {
         background-color: grey;
     }
+
+    #socialContainer:hover {
+        background-color: grey;
+    }
+
+    #social {
+        max-width: 200px !important;
+    }
 }
