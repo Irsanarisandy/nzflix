@@ -26,11 +26,11 @@ class App extends React.Component {
                             id="current-video"
                             style={styles.video}
                             src="https://www.youtube.com/embed/G1IbRujko-A?rel=0"
-                            frameborder="0"
+                            frameBorder="0"
                             allow="autoplay; encrypted-media"
-                            allowfullscreen
+                            allowFullScreen
                         />
-                        <MediaQuery minWidth={414.5}>
+                        <MediaQuery minWidth={750.5}>
                             <h2>Find your next favourite</h2>
                             <div style={styles.videoSuggestionContainer}>
                                 <img
@@ -73,7 +73,7 @@ class App extends React.Component {
                     <MediaQuery
                         id="desc-container"
                         style={styles.descContainer}
-                        minWidth={414.5}
+                        minWidth={750.5}
                     >
                         <div style={styles.descContent}>
                             <h1>Random Title</h1>
@@ -113,7 +113,7 @@ class App extends React.Component {
                         </div>
                     </MediaQuery>
                 </div>
-                <MediaQuery maxWidth={414.5}>
+                <MediaQuery maxWidth={750.5}>
                     <VideoList videoImg={s1} videoTitle="Random Title 1" />
                     <VideoList videoImg={s2} videoTitle="Random Title 2" />
                     <VideoList videoImg={s3} videoTitle="Random Title 3" />

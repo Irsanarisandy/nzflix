@@ -16,7 +16,7 @@ export default {
         height: 'calc(100vw / 1.5)',
         width: '100vw',
         maxHeight: 467,
-        maxWidth: 700
+        maxWidth: 750
     },
     videoSuggestionContainer: {
         backgroundColor: 'white',
